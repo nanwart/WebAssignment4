@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app_server",
+    "\\app_server\\controllers",
+    "\\app_server\\modules",
+    "\\app_server\\routes",
+    "\\app_server\\views",
+    "\\public"
+  ],
+  "SelectedNode": "\\app_server\\controllers\\addfitness.js",
+  "PreviewInSolutionExplorer": false
+}

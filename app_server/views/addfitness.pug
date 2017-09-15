@@ -1,0 +1,45 @@
+extends layout
+
+block content
+    .row.page-header
+        .col-lg-12
+            h1 Fitness Program
+            p.lead Welcome to our app
+            .row
+            .col-xs-12.col-md-6
+                form.form-horizontal(action="/addFitness", method="post", role="form")
+                    .form-group
+                    table
+                        tr
+                            th Exercice
+                            th Description
+                            th Set
+                            th Reps
+                        tr
+                            td 
+                                input#Exercise.form-control(name="Exercise")
+                            td 
+                                input#Description.form-control(name="Description")
+                            td 
+                                input#Sets.form-control(name="Sets")
+                            td 
+                                input#Repstime.form-control(name="Repstime")               
+
+                        tr
+                            td
+                                input(type="submit" value="add")
+                    table
+                        tr
+                            th Exercice
+                            th Description
+                            th Set
+                            th Reps
+                        for value in fitnessplan
+                            tr
+                                td= value.exercise
+                                td= value.description
+                                td= value.sets
+                                td= value.repstime
+
+
+
