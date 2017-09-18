@@ -5,8 +5,11 @@ var id = 1;
 // addFitness routes
 router.get('/addfitness', addfitness.GetFitness)
     .post('/addfitness', addfitness.fitnessApp)
-    .get('/addfitness/' + id, addfitness.GetOneFitness)
+    .get('/addfitness/:_id', addfitness.GetOneFitness)
+    .put('/addfitness/:_id', addfitness.EditFitness)
+    .delete('/addfitness/:_id', addfitness.DeleteFitness);
+    /*.get('/addfitness/' + id, addfitness.GetOneFitness)
     .put('/addfitness/' + id, addfitness.EditFitness)
-    .delete('/addfitness/' + id, addfitness.DeleteFitness);
+    .delete('/addfitness/' + id, addfitness.DeleteFitness);*/
 
 module.exports = router;
