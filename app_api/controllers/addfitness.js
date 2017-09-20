@@ -22,7 +22,7 @@ module.exports.GetOneFitness = function (req, res) {
                     sendJsonResponse(res, 404, err);
                     return;
                 }
-                sendJsonResponse(res, 200, fitness)
+                sendJsonResponse(res, 200, fitness);
             });
     } else {
         sendJsonResponse(res, 404, {
