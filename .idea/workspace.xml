@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1d3720e-9778-4557-a457-feca9429869c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/controllers/addfitness.js" afterPath="$PROJECT_DIR$/app_server/controllers/addfitness.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/modules/addfitness.js" afterPath="$PROJECT_DIR$/app_server/modules/addfitness.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/routes/index.js" afterPath="$PROJECT_DIR$/app_server/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/addfitness.pug" afterPath="$PROJECT_DIR$/app_server/views/addfitness.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_api/controllers/addfitness.js" afterPath="$PROJECT_DIR$/app_api/controllers/addfitness.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,32 +18,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_server/modules/db.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="addfitness.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_server/controllers/addfitness.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addfitness.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_server/modules/addfitness.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-              <folding />
+              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding>
+                <marker date="1506064594972" expanded="true" signature="133:884" ph="{...}" />
+                <marker date="1506064594972" expanded="true" signature="167:355" ph="{&quot;exercise&quot;: req.body.Exercise...}" />
+                <marker date="1506064594972" expanded="true" signature="396:805" ph="{...}" />
+                <marker date="1506064594972" expanded="true" signature="431:483" ph="{...}" />
+                <marker date="1506064594972" expanded="true" signature="501:530" ph="{...}" />
+                <marker date="1506064594972" expanded="true" signature="582:805" ph="{...}" />
+                <marker date="1506064594972" expanded="true" signature="617:693" ph="{...}" />
+                <marker date="1506064594972" expanded="true" signature="699:732" ph="{...}" />
+                <marker date="1506064594972" expanded="true" signature="934:1212" ph="{...}" />
+                <marker date="1506064594972" expanded="true" signature="991:1178" ph="{...}" />
+                <marker date="1506064594972" expanded="true" signature="1014:1066" ph="{...}" />
+                <marker date="1506064594972" expanded="true" signature="1083:1104" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,16 +46,30 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <marker date="1506064594974" expanded="true" signature="119:139" ph="/*...*/" />
+                <marker date="1506064594974" expanded="true" signature="181:260" ph="{...}" />
+                <marker date="1506064594974" expanded="true" signature="362:422" ph="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addfitness.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_server/views/addfitness.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addfitness.pug" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app_server/views/addfitness.pug">
+      <file leaf-file-name="addfitness.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_api/controllers/addfitness.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="238">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -83,12 +88,20 @@
         <option value="$PROJECT_DIR$/app_server/modules/addfitness.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/addfitness.js" />
         <option value="$PROJECT_DIR$/app_server/views/addfitness.pug" />
+        <option value="$PROJECT_DIR$/app_api/controllers/addfitness.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -97,10 +110,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="315" />
-    <option name="y" value="44" />
-    <option name="width" value="1037" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="40" />
+    <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectView">
@@ -118,43 +130,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="FitnessAppWebG13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FitnessAppWebG13" type="462c0819:PsiDirectoryNode" />
+              <item name="FitnessAppWebAPIG13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FitnessAppWebAPIG13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FitnessAppWebG13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FitnessAppWebG13" type="462c0819:PsiDirectoryNode" />
-              <item name="app_server" type="462c0819:PsiDirectoryNode" />
+              <item name="FitnessAppWebAPIG13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FitnessAppWebAPIG13" type="462c0819:PsiDirectoryNode" />
+              <item name="app_api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FitnessAppWebG13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FitnessAppWebG13" type="462c0819:PsiDirectoryNode" />
-              <item name="app_server" type="462c0819:PsiDirectoryNode" />
+              <item name="FitnessAppWebAPIG13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FitnessAppWebAPIG13" type="462c0819:PsiDirectoryNode" />
+              <item name="app_api" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FitnessAppWebG13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FitnessAppWebG13" type="462c0819:PsiDirectoryNode" />
-              <item name="app_server" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FitnessAppWebG13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FitnessAppWebG13" type="462c0819:PsiDirectoryNode" />
-              <item name="app_server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FitnessAppWebG13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FitnessAppWebG13" type="462c0819:PsiDirectoryNode" />
-              <item name="app_server" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,6 +160,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -197,14 +194,16 @@
       <workItem from="1505312924490" duration="2771000" />
       <workItem from="1505391940510" duration="2366000" />
       <workItem from="1505420934860" duration="2142000" />
+      <workItem from="1506064642491" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7279000" />
+    <option name="totallyTimeSpent" value="7371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="32" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1852123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -238,19 +237,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app_server/modules/db.js">
+    <entry file="file://$PROJECT_DIR$/app_server/controllers/addfitness.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/routes/addfitness.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <marker date="1506064594972" expanded="true" signature="133:884" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="167:355" ph="{&quot;exercise&quot;: req.body.Exercise...}" />
+            <marker date="1506064594972" expanded="true" signature="396:805" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="431:483" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="501:530" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="582:805" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="617:693" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="699:732" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="934:1212" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="991:1178" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="1014:1066" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="1083:1104" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -258,7 +262,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <marker date="1506064594974" expanded="true" signature="119:139" ph="/*...*/" />
+            <marker date="1506064594974" expanded="true" signature="181:260" ph="{...}" />
+            <marker date="1506064594974" expanded="true" signature="362:422" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/addfitness.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/modules/db.js" />
+    <entry file="file://$PROJECT_DIR$/app_server/routes/addfitness.js" />
+    <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <marker date="1506064594974" expanded="true" signature="119:139" ph="/*...*/" />
+            <marker date="1506064594974" expanded="true" signature="181:260" ph="{...}" />
+            <marker date="1506064594974" expanded="true" signature="362:422" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -274,70 +304,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding />
+          <folding>
+            <marker date="1506064594972" expanded="true" signature="133:884" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="167:355" ph="{&quot;exercise&quot;: req.body.Exercise...}" />
+            <marker date="1506064594972" expanded="true" signature="396:805" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="431:483" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="501:530" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="582:805" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="617:693" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="699:732" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="934:1212" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="991:1178" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="1014:1066" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="1083:1104" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/modules/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/modules/db.js" />
     <entry file="file://$PROJECT_DIR$/app_server/controllers/addfitness.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1506064594972" expanded="true" signature="133:884" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="167:355" ph="{&quot;exercise&quot;: req.body.Exercise...}" />
+            <marker date="1506064594972" expanded="true" signature="396:805" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="431:483" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="501:530" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="582:805" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="617:693" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="699:732" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="934:1212" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="991:1178" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="1014:1066" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="1083:1104" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/modules/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/routes/addfitness.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/modules/addfitness.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/modules/db.js" />
+    <entry file="file://$PROJECT_DIR$/app_server/routes/addfitness.js" />
+    <entry file="file://$PROJECT_DIR$/app_server/modules/addfitness.js" />
     <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1506064594974" expanded="true" signature="119:139" ph="/*...*/" />
+            <marker date="1506064594974" expanded="true" signature="181:260" ph="{...}" />
+            <marker date="1506064594974" expanded="true" signature="362:422" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_server/controllers/addfitness.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <marker date="1506064594972" expanded="true" signature="133:884" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="167:355" ph="{&quot;exercise&quot;: req.body.Exercise...}" />
+            <marker date="1506064594972" expanded="true" signature="396:805" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="431:483" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="501:530" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="582:805" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="617:693" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="699:732" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="934:1212" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="991:1178" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="1014:1066" ph="{...}" />
+            <marker date="1506064594972" expanded="true" signature="1083:1104" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_server/views/addfitness.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/controllers/addfitness.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
