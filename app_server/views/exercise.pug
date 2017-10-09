@@ -3,15 +3,14 @@ extends layout
 block content
     .row.page-header
         .col-lg-12
-            h1 Fitness Program
-            p.lead Welcome to our app
+            h1 Exercises
             .row
             .col-xs-12.col-md-6
-                form.form-horizontal(action="/addFitness", method="post", role="form")
+                form.form-horizontal(action="/workout/"+ workoutId +"/exercise/CreateExercise", method="post", role="form")
                     .form-group
                     table
                         tr
-                            th Exercice
+                            th Exercise
                             th Description
                             th Set
                             th Reps
@@ -23,23 +22,23 @@ block content
                             td 
                                 input#Sets.form-control(name="Sets")
                             td 
-                                input#Repstime.form-control(name="Repstime")               
-
-                        tr
+                                input#Repstime.form-control(name="Repstime")
                             td
                                 input(type="submit" value="add")
                     table
                         tr
-                            th Exercice
+                            th Exercise
                             th Description
                             th Set
                             th Reps
-                        for value in fitnessplan
+                        for value in exercise
                             tr
                                 td= value.exercise
                                 td= value.description
                                 td= value.sets
                                 td= value.repstime
-
+                                td
+                                   div.btn-group.btn-sm
+                                       a.btn.btn-danger.btn-sm(href="/workout/" + workoutId + "/exercise/" + value._id + "/remove" )= 'remove'
 
 
