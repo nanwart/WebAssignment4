@@ -3,32 +3,27 @@ extends layout
 block content
     .row.page-header
         .col-lg-12
-            h1 Workout
+            h1 User
             .row
             .col-ex-12.col-md-6
-                form.from-line(method="post", action ='/user/'+ userId +'/workout/CreateWorkout')
+                form.from-line(method="post", action ='/user/CreateUser')
                     table
                         tr
                             th Name
-                            th Discription
                         tr
                             td
-                                input#Name.from-control(name="WName")
-                            td
-                                input#discription.from-control(name="WDescription")
+                                input#Name.from-control(name="UserName")
                         tr
                             td
                                 input(type="submit" value="add")
                         table
                             tr
                                 th Name
-                                th Discription
 
-                            for value in workout
+                            for value in user
                                 tr
                                     td= value.name
-                                    td=value.description
                                     td
                                         div.btn-group.btn-sm
-                                            a.btn.btn-primary.btn-sm(href='/user/' + userId + '/workout/' + value._id + '/exercise' )= 'Exercises'
+                                            a.btn.btn-primary.btn-sm(href='/user/' + value._id + '/workout' )= 'workout'
 

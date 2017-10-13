@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Workout = mongoose.model('Workout');
-
+const User = mongoose.model('User');
 module.exports.CreateWorkout = function (req,res) {
     Workout.create({
             name: req.body.WName,
@@ -9,13 +9,16 @@ module.exports.CreateWorkout = function (req,res) {
             if (err){
                 res.render('error');
             } else {
-                Workout.find({},
+                User.findByIdAndUpdate(
+                    req.params.userId,
+                    {$push: {workout: workout}},
+                    {new: true},
                     (err, workout) => {
                         if (err) {
-                            sendJsonResponse(res,404,{"error": "workout not found"});
+                            sendJsonResponse(res, 404, 'error');
                         }
                         else {
-                            sendJsonResponse(res,200,Workout);
+                            sendJsonResponse(res, 200, workout);
                         }
                     });
             }
@@ -23,13 +26,19 @@ module.exports.CreateWorkout = function (req,res) {
 };
 
 module.exports.ShowAll = function (req,res) {
-    Workout.find({})
-        .exec((err, workout) => {
-            if(err){
-                res.render('error');
+    User.findById(req.params.userId)  //her er der en fejl ved ikke hvad.
+        .populate('workout')
+        .exec((err, User) => {
+            if('error',err ){
+                sendJsonResponse(res, 200, 'error');
             }
             else {
-                sendJsonResponse(res, 200, workout);
+                if (User != null) {
+                    sendJsonResponse(res, 404, 'error');
+                } else {
+                    sendJsonResponse(res, 200, workout);
+                }
+
             }
         });
 };

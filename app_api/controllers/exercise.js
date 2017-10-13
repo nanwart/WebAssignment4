@@ -18,7 +18,8 @@ module.exports.CreateExercise = function(req, res) {
                 {new: true},
                 (err, Workout) => {
                     if (err) {
-                        res.render('error');sendJsonResponse(res,404,{"error" :"Exercise not found"});
+                        //res.render('error');
+                        sendJsonResponse(res,404,{"error" :"Exercise not found"});
                     }
                     else {
                         sendJsonResponse(res, 200, Workout);

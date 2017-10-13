@@ -6,7 +6,7 @@ block content
             h1 Exercises
             .row
             .col-xs-12.col-md-6
-                form.form-horizontal(action="/workout/"+ workoutId +"/exercise/CreateExercise", method="post", role="form")
+                form.form-horizontal(action='/user/'+ userId +'/workout/'+ workoutId +'/exercise/CreateExercise', method="post", role="form")
                     .form-group
                     table
                         tr
@@ -15,13 +15,13 @@ block content
                             th Set
                             th Reps
                         tr
-                            td 
+                            td
                                 input#Exercise.form-control(name="Exercise")
-                            td 
+                            td
                                 input#Description.form-control(name="Description")
-                            td 
+                            td
                                 input#Sets.form-control(name="Sets")
-                            td 
+                            td
                                 input#Repstime.form-control(name="Repstime")
                             td
                                 input(type="submit" value="add")
@@ -38,7 +38,7 @@ block content
                                 td= value.sets
                                 td= value.repstime
                                 td
-                                   div.btn-group.btn-sm
-                                       a.btn.btn-danger.btn-sm(href="/workout/" + workoutId + "/exercise/" + value._id + "/remove" )= 'remove'
+                                    div.btn-group.btn-sm
+                                        a.btn.btn-danger.btn-sm(href="/user/"+ userId +"/workout/" + workoutId + "/exercise/" + value._id + "/remove" )= 'remove'
 
 

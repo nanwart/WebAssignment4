@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-const url = 'mongodb://localhost:27017/FitnessAPP';
+var url = 'mongodb://localhost:27017/FitnessAPP';
 if(process.env.NODE_ENV === 'production') {
-        url= process.env.MONGODB_URI;
+    url= process.env.MONGODB_URI;
 }
 
 //Opretter Connection
@@ -21,4 +21,5 @@ mongoose.connection.on('disconnected', function () {
 
 require('./exercise');
 require('./workout');
+require('./user');
 
