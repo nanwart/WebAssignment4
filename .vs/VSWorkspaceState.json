@@ -2,11 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\app_api",
+    "\\app_api\\config",
     "\\app_api\\controllers",
     "\\app_api\\modules",
-    "\\app_api\\routes",
-    "\\app_server"
+    "\\app_api\\routes"
   ],
-  "SelectedNode": "\\app_api\\modules\\db.js",
+  "SelectedNode": "\\app_api\\controllers\\user.js",
   "PreviewInSolutionExplorer": false
 }
