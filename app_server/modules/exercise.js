@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+/*const mongoose = require('mongoose');
 
 const ExerciseSH = new mongoose.Schema({
     exercise: String,
@@ -7,4 +7,4 @@ const ExerciseSH = new mongoose.Schema({
     repstime: Number
 });
 
-const exercise = mongoose.model('exercise', ExerciseSH);
+const exercise = mongoose.model('exercise', ExerciseSH); */

@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+/*const mongoose = require('mongoose');
 var Schema =   mongoose.Schema;
 
 const workoutSH = Schema({
@@ -12,4 +12,4 @@ const workoutSH = Schema({
     }]
 });
 
-const Workout = mongoose.model('Workout', workoutSH);
+const workout = mongoose.model('workout', workoutSH); */
