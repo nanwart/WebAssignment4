@@ -7,6 +7,6 @@
     "\\app_api\\modules",
     "\\app_api\\routes"
   ],
-  "SelectedNode": "\\app_api\\controllers\\user.js",
+  "SelectedNode": "\\app_api\\controllers\\authentication.js",
   "PreviewInSolutionExplorer": false
 }
