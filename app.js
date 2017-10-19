@@ -51,7 +51,7 @@ app.use(function(err, req, res, next) {
 
 
 ////copied from slides 82
-var session = require('express-session');
+var session = require('express');
 // middleware
 app.use(session({
   resave: false, // don't save session if unmodified
